@@ -83,7 +83,7 @@ namespace GeekShopping.ProductAPI.Controllers
 
             if (deleted)
             {
-                return Ok();
+                return Ok(deleted);
             }
             else
             {
